@@ -1,0 +1,5 @@
+<launch>
+  <rosparam file="$(find imu_rotator)/config/params.yaml" />
+  
+  <node name="imu_rotator_node" pkg="imu_rotator" type="imu_rotator_node" output="screen" />
+</launch>
