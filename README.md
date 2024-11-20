@@ -7,7 +7,7 @@ ROS IMU data rotator for spinning lidar slam or localization
 1. ROS(noetic or other)
 2. Eigen Library
 
-## How to use
+## Usage
 
 ```
 roslaunch imu_rotator imu_rotator.launch
